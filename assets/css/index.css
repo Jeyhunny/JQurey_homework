@@ -1,0 +1,31 @@
+body{
+    height: 800px;
+}
+
+#navbar-area{
+    background-color: rgb(113, 194, 164);
+    padding: 15px 0;
+}
+a{text-decoration: none;}
+#navbar-area ul li a{
+    color: white;
+}
+#navbar-area .shopping-cart{
+    cursor: pointer;
+    position: relative;
+}
+#navbar-area .shopping-cart a{
+    color: rgb(105, 6, 6);
+    font-size: 20px;
+}
+#navbar-area .shopping-cart span{
+    color: white;
+    position: absolute;
+    top: -10px;
+    left: 25px;
+    font-size: 15px !important;
+}
+
+.card{
+    margin-top: 20px !important;
+}
